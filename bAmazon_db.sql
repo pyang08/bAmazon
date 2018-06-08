@@ -10,8 +10,6 @@ stockquantity INTbamazon_dbbamazon_db default 0,
 primary key (id)
 );
 
-insert into bamazon_db (productname,departmentname,price,stockquantity)
-
 insert into products (productname,departmentname,price,stockquantity)
 values ("Heidi Dress","Clothing",35,6);
 
